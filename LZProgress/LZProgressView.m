@@ -24,7 +24,7 @@
 - (id)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
     if (self) {
-        [self initView];
+        [self initView];//初始化
     }
     return self;
 }
