@@ -24,16 +24,17 @@
 - (id)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
     if (self) {
-        [self initView];//初始化
+        [self initView];
     }
     return self;
 }
 
 - (void)initView{
     self.backgroundColor = [UIColor whiteColor];
-    self.progressLable = [[UILabel alloc] initWithFrame:CGRectMake(20, self.frame.size.height/2-20, self.frame.size.width-40, 40)];
+    self.progressLable = [[UILabel alloc] initWithFrame:CGRectMake(5, self.frame.size.height/2-10, self.frame.size.width-10, 20)];
     self.progressLable.text = @"0%";
     self.progressLable.textColor = [UIColor blackColor];
+    self.progressLable.font = [UIFont systemFontOfSize:13];
     self.progressLable.textAlignment = NSTextAlignmentCenter;
     self.progressLable.backgroundColor = [UIColor clearColor];
     [self addSubview:self.progressLable];
