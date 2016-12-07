@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAE223E91DE2A60D00AA0349 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE223E81DE2A60D00AA0349 /* main.m */; };
+		FAE223EC1DE2A60D00AA0349 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE223EB1DE2A60D00AA0349 /* AppDelegate.m */; };
+		FAE223EF1DE2A60D00AA0349 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE223EE1DE2A60D00AA0349 /* ViewController.m */; };
+		FAE223F21DE2A60D00AA0349 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE223F01DE2A60D00AA0349 /* Main.storyboard */; };
+		FAE223F41DE2A60E00AA0349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE223F31DE2A60E00AA0349 /* Assets.xcassets */; };
+		FAE223F71DE2A60E00AA0349 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE223F51DE2A60E00AA0349 /* LaunchScreen.storyboard */; };
+		FAE224021DE2A60E00AA0349 /* CircularProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE224011DE2A60E00AA0349 /* CircularProgressTests.m */; };
+		FAE2240D1DE2A60E00AA0349 /* CircularProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE2240C1DE2A60E00AA0349 /* CircularProgressUITests.m */; };
+		FAE2241C1DE2A7DF00AA0349 /* LZProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE2241B1DE2A7DF00AA0349 /* LZProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAE223FE1DE2A60E00AA0349 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE223DC1DE2A60D00AA0349 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE223E31DE2A60D00AA0349;
+			remoteInfo = CircularProgress;
+		};
+		FAE224091DE2A60E00AA0349 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE223DC1DE2A60D00AA0349 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE223E31DE2A60D00AA0349;
+			remoteInfo = CircularProgress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAE223E41DE2A60D00AA0349 /* CircularProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE223E81DE2A60D00AA0349 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAE223EA1DE2A60D00AA0349 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAE223EB1DE2A60D00AA0349 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAE223ED1DE2A60D00AA0349 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAE223EE1DE2A60D00AA0349 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAE223F11DE2A60D00AA0349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAE223F31DE2A60E00AA0349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAE223F61DE2A60E00AA0349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAE223F81DE2A60E00AA0349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE223FD1DE2A60E00AA0349 /* CircularProgressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularProgressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE224011DE2A60E00AA0349 /* CircularProgressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularProgressTests.m; sourceTree = "<group>"; };
+		FAE224031DE2A60E00AA0349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE224081DE2A60E00AA0349 /* CircularProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE2240C1DE2A60E00AA0349 /* CircularProgressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularProgressUITests.m; sourceTree = "<group>"; };
+		FAE2240E1DE2A60E00AA0349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE2241A1DE2A7DF00AA0349 /* LZProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZProgressView.h; sourceTree = "<group>"; };
+		FAE2241B1DE2A7DF00AA0349 /* LZProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAE223E11DE2A60D00AA0349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE223FA1DE2A60E00AA0349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE224051DE2A60E00AA0349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAE223DB1DE2A60D00AA0349 = {
+			isa = PBXGroup;
+			children = (
+				FAE223E61DE2A60D00AA0349 /* CircularProgress */,
+				FAE224001DE2A60E00AA0349 /* CircularProgressTests */,
+				FAE2240B1DE2A60E00AA0349 /* CircularProgressUITests */,
+				FAE223E51DE2A60D00AA0349 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE223E51DE2A60D00AA0349 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE223E41DE2A60D00AA0349 /* CircularProgress.app */,
+				FAE223FD1DE2A60E00AA0349 /* CircularProgressTests.xctest */,
+				FAE224081DE2A60E00AA0349 /* CircularProgressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE223E61DE2A60D00AA0349 /* CircularProgress */ = {
+			isa = PBXGroup;
+			children = (
+				FAE2241D1DE2E37400AA0349 /* ProgressView */,
+				FAE223EA1DE2A60D00AA0349 /* AppDelegate.h */,
+				FAE223EB1DE2A60D00AA0349 /* AppDelegate.m */,
+				FAE223ED1DE2A60D00AA0349 /* ViewController.h */,
+				FAE223EE1DE2A60D00AA0349 /* ViewController.m */,
+				FAE223F01DE2A60D00AA0349 /* Main.storyboard */,
+				FAE223F31DE2A60E00AA0349 /* Assets.xcassets */,
+				FAE223F51DE2A60E00AA0349 /* LaunchScreen.storyboard */,
+				FAE223F81DE2A60E00AA0349 /* Info.plist */,
+				FAE223E71DE2A60D00AA0349 /* Supporting Files */,
+			);
+			path = CircularProgress;
+			sourceTree = "<group>";
+		};
+		FAE223E71DE2A60D00AA0349 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAE223E81DE2A60D00AA0349 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAE224001DE2A60E00AA0349 /* CircularProgressTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE224011DE2A60E00AA0349 /* CircularProgressTests.m */,
+				FAE224031DE2A60E00AA0349 /* Info.plist */,
+			);
+			path = CircularProgressTests;
+			sourceTree = "<group>";
+		};
+		FAE2240B1DE2A60E00AA0349 /* CircularProgressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE2240C1DE2A60E00AA0349 /* CircularProgressUITests.m */,
+				FAE2240E1DE2A60E00AA0349 /* Info.plist */,
+			);
+			path = CircularProgressUITests;
+			sourceTree = "<group>";
+		};
+		FAE2241D1DE2E37400AA0349 /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				FAE2241A1DE2A7DF00AA0349 /* LZProgressView.h */,
+				FAE2241B1DE2A7DF00AA0349 /* LZProgressView.m */,
+			);
+			name = ProgressView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAE223E31DE2A60D00AA0349 /* CircularProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE224111DE2A60E00AA0349 /* Build configuration list for PBXNativeTarget "CircularProgress" */;
+			buildPhases = (
+				FAE223E01DE2A60D00AA0349 /* Sources */,
+				FAE223E11DE2A60D00AA0349 /* Frameworks */,
+				FAE223E21DE2A60D00AA0349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircularProgress;
+			productName = CircularProgress;
+			productReference = FAE223E41DE2A60D00AA0349 /* CircularProgress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAE223FC1DE2A60E00AA0349 /* CircularProgressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE224141DE2A60E00AA0349 /* Build configuration list for PBXNativeTarget "CircularProgressTests" */;
+			buildPhases = (
+				FAE223F91DE2A60E00AA0349 /* Sources */,
+				FAE223FA1DE2A60E00AA0349 /* Frameworks */,
+				FAE223FB1DE2A60E00AA0349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE223FF1DE2A60E00AA0349 /* PBXTargetDependency */,
+			);
+			name = CircularProgressTests;
+			productName = CircularProgressTests;
+			productReference = FAE223FD1DE2A60E00AA0349 /* CircularProgressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAE224071DE2A60E00AA0349 /* CircularProgressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE224171DE2A60E00AA0349 /* Build configuration list for PBXNativeTarget "CircularProgressUITests" */;
+			buildPhases = (
+				FAE224041DE2A60E00AA0349 /* Sources */,
+				FAE224051DE2A60E00AA0349 /* Frameworks */,
+				FAE224061DE2A60E00AA0349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE2240A1DE2A60E00AA0349 /* PBXTargetDependency */,
+			);
+			name = CircularProgressUITests;
+			productName = CircularProgressUITests;
+			productReference = FAE224081DE2A60E00AA0349 /* CircularProgressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE223DC1DE2A60D00AA0349 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = shenzhenshihua;
+				TargetAttributes = {
+					FAE223E31DE2A60D00AA0349 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = G4E6298X77;
+						ProvisioningStyle = Automatic;
+					};
+					FAE223FC1DE2A60E00AA0349 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = G4E6298X77;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAE223E31DE2A60D00AA0349;
+					};
+					FAE224071DE2A60E00AA0349 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = G4E6298X77;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAE223E31DE2A60D00AA0349;
+					};
+				};
+			};
+			buildConfigurationList = FAE223DF1DE2A60D00AA0349 /* Build configuration list for PBXProject "CircularProgress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAE223DB1DE2A60D00AA0349;
+			productRefGroup = FAE223E51DE2A60D00AA0349 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE223E31DE2A60D00AA0349 /* CircularProgress */,
+				FAE223FC1DE2A60E00AA0349 /* CircularProgressTests */,
+				FAE224071DE2A60E00AA0349 /* CircularProgressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAE223E21DE2A60D00AA0349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE223F71DE2A60E00AA0349 /* LaunchScreen.storyboard in Resources */,
+				FAE223F41DE2A60E00AA0349 /* Assets.xcassets in Resources */,
+				FAE223F21DE2A60D00AA0349 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE223FB1DE2A60E00AA0349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE224061DE2A60E00AA0349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAE223E01DE2A60D00AA0349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE223EF1DE2A60D00AA0349 /* ViewController.m in Sources */,
+				FAE2241C1DE2A7DF00AA0349 /* LZProgressView.m in Sources */,
+				FAE223EC1DE2A60D00AA0349 /* AppDelegate.m in Sources */,
+				FAE223E91DE2A60D00AA0349 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE223F91DE2A60E00AA0349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE224021DE2A60E00AA0349 /* CircularProgressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE224041DE2A60E00AA0349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE2240D1DE2A60E00AA0349 /* CircularProgressUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAE223FF1DE2A60E00AA0349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE223E31DE2A60D00AA0349 /* CircularProgress */;
+			targetProxy = FAE223FE1DE2A60E00AA0349 /* PBXContainerItemProxy */;
+		};
+		FAE2240A1DE2A60E00AA0349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE223E31DE2A60D00AA0349 /* CircularProgress */;
+			targetProxy = FAE224091DE2A60E00AA0349 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAE223F01DE2A60D00AA0349 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE223F11DE2A60D00AA0349 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAE223F51DE2A60E00AA0349 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE223F61DE2A60E00AA0349 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAE2240F1DE2A60E00AA0349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAE224101DE2A60E00AA0349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAE224121DE2A60E00AA0349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G4E6298X77;
+				INFOPLIST_FILE = CircularProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SH.CircularProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAE224131DE2A60E00AA0349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G4E6298X77;
+				INFOPLIST_FILE = CircularProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SH.CircularProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAE224151DE2A60E00AA0349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G4E6298X77;
+				INFOPLIST_FILE = CircularProgressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SH.CircularProgressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircularProgress.app/CircularProgress";
+			};
+			name = Debug;
+		};
+		FAE224161DE2A60E00AA0349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G4E6298X77;
+				INFOPLIST_FILE = CircularProgressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SH.CircularProgressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircularProgress.app/CircularProgress";
+			};
+			name = Release;
+		};
+		FAE224181DE2A60E00AA0349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = G4E6298X77;
+				INFOPLIST_FILE = CircularProgressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SH.CircularProgressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CircularProgress;
+			};
+			name = Debug;
+		};
+		FAE224191DE2A60E00AA0349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = G4E6298X77;
+				INFOPLIST_FILE = CircularProgressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SH.CircularProgressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CircularProgress;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAE223DF1DE2A60D00AA0349 /* Build configuration list for PBXProject "CircularProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE2240F1DE2A60E00AA0349 /* Debug */,
+				FAE224101DE2A60E00AA0349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE224111DE2A60E00AA0349 /* Build configuration list for PBXNativeTarget "CircularProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE224121DE2A60E00AA0349 /* Debug */,
+				FAE224131DE2A60E00AA0349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE224141DE2A60E00AA0349 /* Build configuration list for PBXNativeTarget "CircularProgressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE224151DE2A60E00AA0349 /* Debug */,
+				FAE224161DE2A60E00AA0349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE224171DE2A60E00AA0349 /* Build configuration list for PBXNativeTarget "CircularProgressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE224181DE2A60E00AA0349 /* Debug */,
+				FAE224191DE2A60E00AA0349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAE223DC1DE2A60D00AA0349 /* Project object */;
+}
