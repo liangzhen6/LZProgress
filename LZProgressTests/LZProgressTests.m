@@ -1,18 +1,18 @@
 //
-//  CircularProgressTests.m
-//  CircularProgressTests
+//  LZProgressTests.m
+//  LZProgressTests
 //
-//  Created by shenzhenshihua on 2016/11/21.
+//  Created by shenzhenshihua on 2016/12/7.
 //  Copyright © 2016年 shenzhenshihua. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface CircularProgressTests : XCTestCase
+@interface LZProgressTests : XCTestCase
 
 @end
 
-@implementation CircularProgressTests
+@implementation LZProgressTests
 
 - (void)setUp {
     [super setUp];
